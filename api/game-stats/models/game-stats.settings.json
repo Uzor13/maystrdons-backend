@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_stats",
+  "info": {
+    "name": "Game_stats"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "min": {
+      "type": "integer",
+      "required": false
+    },
+    "fgm": {
+      "type": "integer"
+    },
+    "fga": {
+      "type": "integer"
+    },
+    "pm": {
+      "type": "integer"
+    },
+    "pa": {
+      "type": "integer"
+    },
+    "three_percent": {
+      "type": "decimal"
+    },
+    "ftm": {
+      "type": "integer"
+    },
+    "fta": {
+      "type": "integer"
+    },
+    "ft_percent": {
+      "type": "float"
+    },
+    "oreb": {
+      "type": "integer"
+    },
+    "dreb": {
+      "type": "integer"
+    },
+    "reb": {
+      "type": "integer"
+    },
+    "ast": {
+      "type": "integer"
+    },
+    "stl": {
+      "type": "biginteger"
+    },
+    "blk": {
+      "type": "integer"
+    },
+    "to": {
+      "type": "integer"
+    },
+    "pf": {
+      "type": "biginteger"
+    },
+    "pts": {
+      "type": "biginteger"
+    },
+    "plus_minus": {
+      "type": "decimal"
+    },
+    "total": {
+      "type": "float"
+    }
+  }
+}

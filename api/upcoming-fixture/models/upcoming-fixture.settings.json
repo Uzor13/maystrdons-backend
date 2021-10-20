@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcoming_fixtures",
+  "info": {
+    "name": "upcoming_fixture",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "venue": {
+      "type": "string",
+      "required": true
+    },
+    "home_team": {
+      "type": "string",
+      "required": true
+    },
+    "away_team": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "time": {
+      "type": "string"
+    },
+    "away_logo": {
+      "type": "string"
+    },
+    "home_logo": {
+      "type": "string"
+    }
+  }
+}

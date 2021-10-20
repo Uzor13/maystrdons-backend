@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "name": "player",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "player_number": {
+      "required": true,
+      "type": "integer"
+    },
+    "age": {
+      "type": "integer",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "height": {
+      "type": "string",
+      "required": true
+    },
+    "hometown": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

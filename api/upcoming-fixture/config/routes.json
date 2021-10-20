@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/upcoming-fixtures",
+      "handler": "upcoming-fixture.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/upcoming-fixtures/count",
+      "handler": "upcoming-fixture.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/upcoming-fixtures/:id",
+      "handler": "upcoming-fixture.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/upcoming-fixtures",
+      "handler": "upcoming-fixture.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/upcoming-fixtures/:id",
+      "handler": "upcoming-fixture.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/upcoming-fixtures/:id",
+      "handler": "upcoming-fixture.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

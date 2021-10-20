@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fixtures",
+  "info": {
+    "name": "Fixture",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "venue": {
+      "type": "string",
+      "required": true
+    },
+    "home_team": {
+      "type": "string",
+      "required": true
+    },
+    "away_team": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "awayTeam_score": {
+      "type": "integer",
+      "required": true
+    },
+    "homeTeam_Score": {
+      "type": "integer",
+      "required": true
+    },
+    "home_logo": {
+      "type": "string"
+    },
+    "away_logo": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}
