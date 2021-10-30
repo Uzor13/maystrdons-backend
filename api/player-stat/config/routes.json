@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/player-stats",
+      "handler": "player-stat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/player-stats/count",
+      "handler": "player-stat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/player-stats/:id",
+      "handler": "player-stat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/player-stats",
+      "handler": "player-stat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/player-stats/:id",
+      "handler": "player-stat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/player-stats/:id",
+      "handler": "player-stat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "game_stats",
   "info": {
-    "name": "Game_stats"
+    "name": "Game_stats",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -71,6 +72,9 @@
     },
     "total": {
       "type": "float"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

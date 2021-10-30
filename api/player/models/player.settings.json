@@ -49,6 +49,12 @@
     },
     "position": {
       "type": "string"
+    },
+    "player_stats": {
+      "columnName": "stats",
+      "targetColumnName": "player_name",
+      "via": "player",
+      "collection": "player-stat"
     }
   }
 }

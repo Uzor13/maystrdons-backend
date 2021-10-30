@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "player_stats",
+  "info": {
+    "name": "player_stat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "g": {
+      "type": "string"
+    },
+    "pts": {
+      "type": "string"
+    },
+    "fg": {
+      "type": "string"
+    },
+    "fg_percent": {
+      "type": "string"
+    },
+    "three_percent": {
+      "type": "string"
+    },
+    "ft_percent": {
+      "type": "string"
+    },
+    "oreb": {
+      "type": "string"
+    },
+    "dreb": {
+      "type": "string"
+    },
+    "reb": {
+      "type": "string"
+    },
+    "ast": {
+      "type": "string"
+    },
+    "stl": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "player": {
+      "via": "player_stats",
+      "columnName": "player_name",
+      "model": "player"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -32,7 +32,7 @@
       "type": "integer",
       "required": true
     },
-    "homeTeam_Score": {
+    "homeTeam_score": {
       "type": "integer",
       "required": true
     },

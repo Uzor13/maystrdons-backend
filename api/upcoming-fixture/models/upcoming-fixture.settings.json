@@ -36,6 +36,9 @@
     },
     "home_logo": {
       "type": "string"
+    },
+    "home": {
+      "type": "boolean"
     }
   }
 }
