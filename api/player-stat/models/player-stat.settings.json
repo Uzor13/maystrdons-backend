@@ -49,11 +49,15 @@
       "type": "string"
     },
     "player": {
-      "via": "player_stats",
       "columnName": "player_name",
+      "targetColumnName": "stats",
+      "via": "player_stats",
       "model": "player"
     },
     "name": {
+      "type": "string"
+    },
+    "pf": {
       "type": "string"
     }
   }

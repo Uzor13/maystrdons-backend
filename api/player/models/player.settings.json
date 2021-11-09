@@ -51,9 +51,8 @@
       "type": "string"
     },
     "player_stats": {
-      "columnName": "stats",
-      "targetColumnName": "player_name",
       "via": "player",
+      "columnName": "stats",
       "collection": "player-stat"
     }
   }
